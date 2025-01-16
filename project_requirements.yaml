@@ -1,0 +1,37 @@
+project_requirements:
+  project_overview:
+    description: "A blog to share my journey to create 'Dũng Làm MarTech' blog from coding, content creation, tracking, analysis,, to optimization"
+  target_audience:
+    description: "Digital Marketers, Small Business Owners"
+  key_features_deliverables:
+    - feature_name: "Dynamic routing"\n      description: "Category, tagging, comments, social shares system"\n      priority: "SEO friendly"\n      dependencies: none\n    - feature_name: "Category, tagging, comments, social shares system"\n      description: "each post belongs to one category. Each post might belong to a series. Each post has a number of tags. There are social media sharing buttons and a comment section for each post."\n      priority: "High"\n      dependencies: none\n    - feature_name: "Customizable themes"\n      description: "Themes should be customizable"\n      priority: "Medium"\n      dependencies:
+      - wto be recommended by you\n    - feature_name: "Responsive design"\n      description: "Ensure the blog layout adapts seamlessly across various devices, including desktops, tablets, and smartphones, providing an optimal viewing experience for all users."\n      priority: "High"\n      dependencies: none\n    - feature_name: "Content Management System"\n      description: "Implement a user-friendly CMS to allow easy creation, editing, and publishing of blog posts without requiiring advanced technical skills."\n      priority: "Hight"\n      dependencies: none\n    - feature_name: "SEO optimization"\n      description: "Optimize blog content and site structure to enhance search engine visibility, improve rankings, and attract organic traffic."\n      priority: "Medium"\n      dependencies:
+      - Content Management system\n    - feature_name: "Email Newsletter Integration"\n      description: "Allow visitors to subscribe to email newsletters to receive updates, new blog posts, and personalized content recommendations."\n      priority: "Low"\n      dependencies:
+      - Content Management System\n    - feature_name: "Done"\n      description: "none"\n      priority: "Low"\n      dependencies: none\n
+  constraints:
+    technical_constraints:
+Finished entering technical_constraints.
+      - description: "Limited server resources for hosting the blog application."
+      - description: "Ensuring page load times remain under 2 seconds for optimal user experience."
+    resource_constraints:
+Finished entering resource_constraints.
+    time_constraints:
+Finished entering time_constraints.
+      - description: "3 months"
+      - description: "three months"
+      - description: "Launch the blog within three months from project start date."
+      - description: "Publish at least two blog posts per week to maintain engagement."
+  success_metrics:
+Finished entering success metrics.
+      - metric_name: "Monthly Visitors"
+        description: "The number of unique visitors to the blog each month."
+        target_value: "5,000"
+      - metric_name: "Average Session Duration"
+        description: "Average time users spend browsing the blog during each visit."
+        target_value: "3 minutes"
+      - metric_name: "Conversion Rate"
+        description: "Percentage of visitors who subscribe to the email newsletter."
+        target_value: "10%"
+      - metric_name: "Page Load Time"
+        description: "Average time it takes for a blog page to fully load."
+        target_value: "Under 2 seconds"
